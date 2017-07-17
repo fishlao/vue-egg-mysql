@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["eslint-config-egg"],
+  "plugins": ["vue"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-unused-vars": [2, {"args": "none"}],
+    "strict": "off",
+    "valid-jsdoc": "off",
+    "linebreak-style": "off",
+    "array-bracket-spacing": "off"
+  },
+  "globals": {
+    "$": true,
+    "axios": true
+  }
+}
